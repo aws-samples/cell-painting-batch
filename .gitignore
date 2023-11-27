@@ -1,0 +1,93 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.venv
+.venv-cpb
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
+ 
+
+## Studio app
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.env
+.env-cbp
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# CDK asset staging directory
+.cdk.staging/
+
+# CDK output directory
+cdk.out/
+
+# Node dependencies
+node_modules/
+ 
+
+# TypeScript compiled code
+*.js
+*.d.ts
+
+# Python Byte-compiled
+*.py[cod]
+
+# AWS SAM
+.sam/
+ 
+# VS Code
+.vscode/
+ 
+ 
+# Directories used by virtualenv
+env/
+venv/
+ENV/
+.venv/
+.venv
+.env
+venv
+.venv-cpb
+.venv-cpb/
+__pycache__
+
+# macOS
+.DS_Store
+
+# Logs
+logs
+*.log
+ 
+
+# Build files
+dist/
+build/
+
+# Npm debug logs
+npm-debug.log*
+
+

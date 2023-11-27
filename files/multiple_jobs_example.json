@@ -1,0 +1,13 @@
+[
+  {
+    "pipeline": "examples/ExampleVitraImages/ExampleVitra.cppipe", 
+    "input": "examples/ExampleVitraImages/images/",
+    "output": "examples/ExampleVitraImages/output1/"
+  },
+  {
+    "pipeline": "examples/ExampleVitraImages/ExampleVitra.cppipe", 
+    "input": "examples/ExampleVitraImages/images/",
+    "output": "examples/ExampleVitraImages/output2/"
+  }
+  
+]

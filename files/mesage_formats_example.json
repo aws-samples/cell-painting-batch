@@ -1,0 +1,37 @@
+[
+
+    {
+      "pipeline": "examples/ExampleVitraImages/ExampleVitra.cppipe", 
+      "input": "examples/ExampleVitraImages/images/",
+      "output": "examples/ExampleVitraImages/output3/",
+      "job_memory":"8192",
+      "job_vcpu":"12"  
+    },
+    {
+      "pipeline": "examples/ExampleVitraImages/ExampleVitra.cppipe", 
+      "input": "examples/ExampleVitraImages/images/",
+      "output": "examples/ExampleVitraImages/output4/",
+      "job_memory":"8192",
+      "job_vcpu":"8"  
+    },
+
+
+    {
+      "pipeline": "examples/ExampleVitraImages/ExampleVitra.cppipe",
+      "input": "examples/ExampleVitraImages/images/",
+      "output": "examples/ExampleVitraImages/output5/"
+    },
+
+  
+    {
+      "pipeline": "examples/ExampleVitraImages/ExampleTYY.cppipe",
+      "input": "examples/ExampleVitraImages/images/",
+      "output": "examples/ExampleVitraImages/output6/",
+      "job_definition" : "arn for aws batch job definition",
+      "job_queue" : "arn for aws batch job queue"
+  
+  
+    }
+  
+  
+  ]

@@ -1,0 +1,7 @@
+aws-cdk-lib==2.87.0
+constructs>=10.0.0,<11.0.0
+boto3
+aws_cdk.aws_batch_alpha
+aws_cdk.aws_amplify_alpha
+cdk-nag
+
